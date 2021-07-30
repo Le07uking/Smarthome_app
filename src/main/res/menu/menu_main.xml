@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id = "@+id/menu_sortieren_licht"
+            android:orderInCategory="1"
+            app:showAsAction = "never"
+            android:title="@string/itemSortierenLicht" />
+
+        <item
+            android:id = "@+id/menu_sortieren_name"
+            android:orderInCategory="1"
+            app:showAsAction = "never"
+            android:title="@string/itemSortierenName" />
+
+        <item
+            android:id = "@+id/menu_lichtaus"
+            android:orderInCategory="1"
+            app:showAsAction = "never"
+            android:title="@string/itemLichtAus" />
+        <item
+            android:id = "@+id/menu_lichtan"
+            android:orderInCategory="1"
+            app:showAsAction = "never"
+            android:title="@string/itemLichtAn" />
+
+    </group>
+</menu>
